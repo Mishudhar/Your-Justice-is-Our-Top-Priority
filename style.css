@@ -1,0 +1,82 @@
+/* Removeing Browser Styles */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Verdana';
+     background-color: rgb(43,41,34); 
+}
+
+body{
+    overflow: hidden;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.navbar div img{
+     width: 100px; 
+}
+ .navbar .list{
+    display: flex;
+    list-style-type: none;
+    color: #808080;
+    
+}
+
+.list .list-item{
+    padding: 10px 20px;
+    position: relative;
+}
+
+.list-item:first-child{
+    color: #fff;
+}
+
+
+.button-small{
+    color: #daa520;
+    border: 2px solid #daa520;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.button-small:hover{
+    cursor: pointer;
+    box-shadow: 0px 5px 30px #000;
+}
+
+.hero{
+    /* margin-top: 5%;
+    margin-bottom: 5%; */
+    display: flex;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 6%;
+    color: #fff;
+    width: 80%;  
+    padding: 50px;
+}
+
+.hero-heading{
+    font-size: 70px;
+    width: 60%; 
+    
+}
+
+.hero article{
+    width: 35%;
+    font-size: 15px;
+    margin-left: 10%;
+    margin-top: 2.5%;
+    font-size: 20px;
+    color: rgb(197, 184, 184);
+}
+
+section[aria-label="hero"] img{
+    width: 100%;
+    height: 40vh;
+}
